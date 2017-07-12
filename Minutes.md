@@ -9,7 +9,7 @@
 * Presentation agenda by FSD
 * AN announces practical arrangements.
 
-Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (TL), Mikael Treguez (MT), Nick Earwaker (NE), Alex Barth (AB), Alessandro Pititto (AP), Greame Duncan (GD), Gerrit Hendriksen (GH), Fanny Lecoy (FL), Ulla Alanen (UA), Bjarni Pjetursson (BP), Florence Benezit (FlB), Fabio Gennai (FB), Bart Vanhoorne (BV), Filip Waumans (FW), Patrick Gorringe (PG), Antonio Novellino (AN), Dick Schaap (DS), Matteo Vinci (MV), Francisco Souza Dias (FSD), Paolo Dayolo (PD), Vasco Alba (VA), Simon Claus (SC)
+Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (TL), Mickael Treguer (MT), Nick Earwaker (NE), Alex Barth (AB), Alessandro Pititto (AP), Greame Duncan (GD), Gerrit Hendriksen (GH), Fanny Lecoy (FL), Ulla Alanen (UA), Bjarni Pjetursson (BP), Florence Benezit (FB), Fabio Gennai (FG), Bart Vanhoorne (BV), Filip Waumans (FW), Patrick Gorringe (PG), Antonio Novellino (AN), Dick Schaap (DS), Matteo Vinci (MV), Francisco Souza Dias (FSD), Paolo D'Angelo (PD), Marco Alba (MA), Simon Claus (SC)
 
 * Increase unique visitor Central Portal
 * Catalogue developments
@@ -26,18 +26,18 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 
 ## Demo catalogue and geoviewer (FSD)
 
-- [ ] Update chemistry link to integrated Seabasin product (currently to old link)  (AP AB)
+- [ ] Update chemistry link to integrated Seabasin product (currently to old link)  (AB)
 - [ ] Add Access to web coverage service in metadata (AP)
-- [ ] Geology:currently repeat metadata+> static xml that we harvest for metadata (AP BP)
-- [ ] Seabed habitats: move towards one product (AP GD)
+- [ ] Geology:currently repeat metadata+> static xml that we harvest for metadata (BP)
+- [ ] Seabed habitats: move towards one product (GD)
 - [ ] Replace metadata with description?
-- [ ] Getlegendgraphic: Alex & Bart check how to implement (AP BV & AB)
-- [ ] Getmapinfo of seabed habitats not working (AP VLIZ)
-- [ ] Inform Iain about new viewer & possible problem with EEZ (AP SC)
+- [ ] Getlegendgraphic: Alex & Bart check how to implement (BV & AB)
+- [ ] Getmapinfo of seabed habitats not working (VLIZ)
+- [ ] Inform Iain about new viewer & possible problem with EEZ (SC)
 ### Query tool functionality
  * Move from discrete points to complete region
  * Add it in the gis viewer
- - [ ] Include selection layer in GIS viewer: link to query tool. (IDEA AP VLIZ)
+ - [ ] Include selection layer in GIS viewer: link to query tool. (IDEA VLIZ)
  * Example [EMIS/Marineanalyst](http://mcc.jrc.ec.europa.eu/dev.py?N=simple&O=410&titre_page=EMIS-R%20Marine%20Analyst&titre_chap=Assessment%20tools)
 
 ### EMODnet Catalogue
@@ -47,22 +47,22 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 * Q: Species distribution modelling: start with North Sea (suggestion DS)
 #### EMODnet chemistry
 * Q: Marine litter maps: under discussion in what format
-- [ ] Map chemistry plots: deep links? (AP AB)
+- [ ] Map chemistry plots: deep links? (AB)
 #### EMODnet physics (AN)
 * Time dimension: 7 days, 60 d, 1Y, 10Y,
 * Services: SOAP/Rest/OGC/THREDDS
 * Geoserver: platform type, parameter, sea basin
-- [ ] HF Radar, MEOP data: THREDD server: using OGC standard (AP VLIZ)
+- [ ] HF Radar, MEOP data: THREDD server: using OGC standard (VLIZ)
 * Monthly averages, max,min: Temp, sal; sea level, Sea Ice, 
-- [ ] AN provide Xml metadata per platform (AP AN).
+- [ ] AN provide Xml metadata per platform (AN).
 #### EMODnet Seabed habitats
 * Q: OSPAR declining habitats: link with ICES Vulnerable habitats
 * Provide WPS?
-- [ ] Move from mapserver to Geoserver/PostgreSQL (AP GD)
+- [ ] Move from mapserver to Geoserver/PostgreSQL (GD)
 * Geoserver app-schema: translate between schemas (INSPIRE)
 *	Track WMS requests?
 *	Central chat/discussion: slack?
-- [ ]	Setup EMODnet Github (AP VLIZ)
+- [x]	Setup EMODnet Github (VLIZ)
 ####	EMODnet Geology
 * Map powered by EGDI
 *	Projection EPSG:3034 (For European datasets)
@@ -74,23 +74,23 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
   3. User feedback & help desk: (secretariat, CP)
   4. Piwik (TrustIT)
 #### EMODnet Bathymtry
-- [ ]	Bathymetry's basemap as background layer CP (AP DS)
+- [ ]	Bathymetry's basemap as background layer CP (DS)
 *	Updating pipeline
-- [ ]	Getfeature info: colour	=> use WCS (AP VLIZ & GH)
-####	EMODnet Human activities
+- [ ]	Getfeature info: colour	=> use WCS (VLIZ & GH)
+#### EMODnet Human activities
 *	IAS data: clean GB’s of data
 *	Buy data or is provided for free
 
-###	Query multidimensional dataproducts 
-####GH presents
+### Query multidimensional dataproducts 
+#### GH presents
 * Infoline.openearth.eu
 * Nhi.nu/waterbodems
 * Domain super-seeding data collection using services
 *	Use case 1: Relation between depth and Amphiura f
 * Depth: Python package: owslib – occurrences species
-- [ ] Advertise services better (AP VLIZ)
-- [ ] Code snippet (publish in EMODnet  Github) (AP GH)
-- [ ] Create page describing WMS/WFS/WCS) (AP all lots) 
+- [ ] Advertise services better (VLIZ)
+- [ ] Code snippet (publish in EMODnet  Github) (GH)
+- [ ] Create page describing WMS/WFS/WCS) (all lots) 
 #### Multidimensional datasets AB presents
 *	Present netCDF 4/Opendap
 *	Oceanbrowser WMS (unit lacking)
@@ -102,8 +102,8 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 
 #### Open Sea Lab (Presentation by JBC)
 * Selection procedure
-- [ ]	**Prepare data packages (AP All)**
-- [ ]	Select people to be part of tech assistance group (AP All)
+- [ ]	**Prepare data packages (All)**
+- [ ]	Select people to be part of tech assistance group (All)
 *	Discussion on prices
 #### Dashboard example physics (AN)
 *	Using logs on webserver
@@ -121,14 +121,14 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 *	Overcome dilution of data providers contribution (overview contributions per provider)
 *	Raw logs (apache/ftp)
 *	Request; user; dataset
-####	Presentation EMODnet data ingestion (DS)
-####	EMODnet progress indicators (FlB)
+#### Presentation EMODnet data ingestion (DS)
+#### EMODnet progress indicators (FlB)
 *	New progress indicators proposed
 *	5 aspects: relevant, actionable, precise, easy to report, coherence
  ###### Indicators:
-* 1: Volume and coverage of data and products (per theme/seaabasin)
+* 1: Volume and coverage of data and products (per theme/seabasin)
 *	2: Coverage of acquired external data products per parameter
-*	- [ ] Coordinators need guidance document with indicators partly completed per theme (AP FlB)
+*	- [ ] Coordinators need guidance document with indicators partly completed per theme (FB)
 *	3: Organisations supplying data/products
 *	4: List quality and harmonization steps to make acquired: difficult!
 *	5: Number of built own dataproducts
@@ -139,7 +139,7 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 *	10: Application, (used on services) 
 *	List publications (bonus indicator)
 #####	Discuss further at SC meeting, target: first delivery after Y1 contracts
-- [ ]	Technical monitoring: website availability, responsiveness, mobile adaptability= > send dashboard link to coordinators: (AP FB)
+- [ ]	Technical monitoring: website availability, responsiveness, mobile adaptability= > send dashboard link to coordinators: (FG)
 - [ ]	Registration funnel: Piwik
 - [ ]	Central Piwik installation – pilot with Geology
 - [ ]	Possibly Central Piwik installation on CP server
@@ -153,11 +153,11 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 *	Autorization/data licensing managed in different databases
 *	Authorization/License: rights between marineID/EMODnet CP:
   1.	MarinID users can login into QueryTool 
- -[ ]  2. List & compare attributes between user databases (AP TL & BV)
-* Ravamp Central Portal (FlB)
+ -[ ]  2. List & compare attributes between user databases (TL & BV)
+* Ravamp Central Portal (FB)
   1.	Overall acceptance
 *	Data policies
-  1.	Map existing policies that exist and propose overall data policy EMODnet by next SC meeting (AP JBC)
+  1.	Map existing policies that exist and propose overall data policy EMODnet by next SC meeting (JBC)
 *	Next meeting technical working group beginning 2018
 *	FSD Thank all partners and meeting is closed
 
