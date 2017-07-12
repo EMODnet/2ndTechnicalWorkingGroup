@@ -24,7 +24,8 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 3.Visit EMODNet to Mercator Ocean (Open call to participate)
 	
 
-## Demo catalogue and geoviewer (FSD)
+## Demo catalogue and geoviewer (FSD) 
+#### full list of Action Points available [here](https://github.com/EMODnet/2ndTechnicalWorkingGroup/blob/master/ActionPoints.md)
 
 - [ ] Update chemistry link to integrated Seabasin product (currently to old link)  (AB)
 - [ ] Add Access to web coverage service in metadata (AP)
