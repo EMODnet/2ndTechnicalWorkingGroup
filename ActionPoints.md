@@ -9,12 +9,12 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 - [ ] Seabed habitats: move towards one product (GD)
 - [ ] Replace metadata with description?
 - [ ] Getlegendgraphic: Alex & Bart check how to implement (BV & AB)
-- [ ] Getmapinfo of seabed habitats not working (VLIZ)
-- [ ] Inform Iain about new viewer & possible problem with EEZ (SC)
+- [x] Getmapinfo of seabed habitats not working (VLIZ)
+- [x] Inform Iain about new viewer & possible problem with EEZ (SC)
 - [ ] Include selection layer in GIS viewer: link to query tool. (IDEA VLIZ)
 - [ ] Map chemistry plots: deep links? (AB)
 - [ ] HF Radar, MEOP data: THREDD server: using OGC standard (VLIZ)
-- [ ] AN provide Xml metadata per platform (AN).
+- [x] AN provide Xml metadata per platform (AN).
 - [ ] Move from mapserver to Geoserver/PostgreSQL (GD)
 - [x]	Setup EMODnet Github (VLIZ)
 - [ ]	Bathymetry's basemap as background layer CP (DS)
