@@ -3,7 +3,7 @@
 Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (TL), Mickael Treguer (MT), Nick Earwaker (NE), Alex Barth (AB), Alessandro Pititto (AP), Greame Duncan (GD), Gerrit Hendriksen (GH), Fanny Lecoy (FL), Ulla Alanen (UA), Bjarni Pjetursson (BP), Florence Benezit (FlB), Fabio Gennai (FB), Bart Vanhoorne (BV), Filip Waumans (FW), Patrick Gorringe (PG), Antonio Novellino (AN), Dick Schaap (DS), Matteo Vinci (MV), Francisco Souza Dias (FSD), Paolo D'Angelo (PD), Marco Alba (MA), Simon Claus (SC)
 
 
-- [ ] Update chemistry link to integrated Seabasin product (currently to old link)  (AB)
+- [x] Update chemistry link to integrated Seabasin product (currently to old link)  (AB)
 - [ ] Add Access to web coverage service in metadata (AP)
 - [ ] Geology:currently repeat metadata+> static xml that we harvest for metadata (BP)
 - [ ] Seabed habitats: move towards one product (GD)
