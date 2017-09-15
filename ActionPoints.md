@@ -23,6 +23,7 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 - [ ] Code snippet (publish in EMODnet  Github) (GH)
 - [ ] **Create page describing WMS/WFS/WCS) (all lots)**
 - [ ]	**Prepare data packages (All)**
+- [ ]	Ask network of partners to add EMODnet Logo
 - [ ]	Select people to be part of tech assistance group (All)
 
 
