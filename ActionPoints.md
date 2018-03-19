@@ -8,17 +8,17 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 - [ ] Geology:currently repeat metadata+> static xml that we harvest for metadata (BP)
 - [ ] Seabed habitats: move towards one product (GD)
 - [ ] Replace metadata with description?
-- [ ] Getlegendgraphic: Alex & Bart check how to implement (BV & AB)
+- [x] Getlegendgraphic: Alex & Bart check how to implement (BV & AB)
 - [x] Getmapinfo of seabed habitats not working (VLIZ)
-- [x] Inform Iain about new viewer & possible problem with EEZ (SC)
-- [ ] Include selection layer in GIS viewer: link to query tool. (IDEA VLIZ)
+- [x] Inform Ian about new viewer & possible problem with EEZ (SC)
+- [ ] Include selection layer in GIS viewer: link to query tool. (idea VLIZ)
 - [ ] Map chemistry plots: deep links? (AB)
 - [ ] HF Radar, MEOP data: THREDD server: using OGC standard (VLIZ)
 - [x] AN provide Xml metadata per platform (AN).
 - [ ] Move from mapserver to Geoserver/PostgreSQL (GD)
 - [x]	Setup EMODnet Github (VLIZ)
 - [ ]	Bathymetry's basemap as background layer CP (DS)
-- [ ]	Getfeature info: colour	=> use WCS (VLIZ & GH)
+- [ ]	~~Getfeature info: colour	=> use WCS (VLIZ & GH)~~ WCS does NOT allow to query on single a lat/long
 - [ ] Advertise services better (VLIZ)
 - [ ] Code snippet (publish in EMODnet  Github) (GH)
 - [ ] **Create page describing WMS/WFS/WCS) (all lots)**
@@ -30,6 +30,6 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 #####	Discuss further at SC meeting, target: first delivery after Y1 contracts
 - [ ]	Technical monitoring: website availability, responsiveness, mobile adaptability= > send dashboard link to coordinators: (AP FB)
 - [ ]	Registration funnel: Piwik
-- [ ]	Central Piwik installation – pilot with Geology
-- [ ]	Possibly Central Piwik installation on CP server
+- [x]	Central Piwik installation – pilot with Geology
+- [x]	Possibly Central Piwik installation on CP server
 
