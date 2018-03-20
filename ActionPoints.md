@@ -21,7 +21,7 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 - [ ]	~~Getfeature info: colour	=> use WCS (VLIZ & GH)~~ WCS does NOT allow to query on single a lat/long
 - [ ] Advertise services better (VLIZ)
 - [ ] Code snippet (publish in EMODnet  Github) (GH)
-- [ ] **Create page describing WMS/WFS/WCS) (all lots)**
+- [x] **Create page describing WMS/WFS/WCS) (all lots)**
 - [ ]	**Prepare data packages (All)**
 - [ ]	**Ask network of partners to add EMODnet Logo**
 - [ ]	Select people to be part of tech assistance group (All)
