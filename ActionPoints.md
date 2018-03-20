@@ -18,7 +18,7 @@ Participants: Jan Bart Callewaert (JBC), Pascal Derycke (PD), Thomas Loubrieu (T
 - [ ] Move from mapserver to Geoserver/PostgreSQL (GD)
 - [x]	Setup EMODnet Github (VLIZ)
 - [ ]	Bathymetry's basemap as background layer CP (DS)
-- [ ]	~~Getfeature info: colour	=> use WCS (VLIZ & GH)~~ WCS does NOT allow to query on single a lat/long
+- [ ]	Getfeature info: colour	=> use WCS (VLIZ & GH)
 - [ ] Advertise services better (VLIZ)
 - [ ] Code snippet (publish in EMODnet  Github) (GH)
 - [x] **Create page describing WMS/WFS/WCS) (all lots)**
